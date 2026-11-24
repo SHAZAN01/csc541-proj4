@@ -1,0 +1,65 @@
+==============================================================================
+  CSC 541 - Programming Project 4: GenAI Usage Statement
+  Team: Shazan, Saina
+  AI Tool Used: Claude (Anthropic), claude.ai
+  Date of use: November 23, 2026
+==============================================================================
+
+This file documents how we used GenAI for this project. Section 1 is our own
+summary of the session by stage. Section 4 is the complete communication,
+copied in full as the assignment requires.
+
+------------------------------------------------------------------------------
+1. SUMMARY OF THE SESSION, BY STAGE
+------------------------------------------------------------------------------
+All prompts were sent by Shazan from a single claude.ai conversation.
+
+STAGE 1: Full project request
+  We pasted the assignment description and asked Claude to complete the
+  project, including both extra credits, the README, contribution file,
+  GenAI statement, and step-by-step guidance for Terminal and GitHub.
+  Claude produced: VirtualMemoryManager.java, TLB.java, PageTable.java,
+  PhysicalMemory.java, BackingStore.java, Policy.java, run_all.sh, README.txt,
+  contribution.txt, and output for 7 test configurations. It confirmed the
+  256-frame output is identical to correct.txt.
+
+STAGE 2: Stronger extra-credit evidence and a screenshot plan
+  We asked for the extra credit to be as convincing as possible, and for
+  6 screenshots. Claude added:
+    - test_textbook_refstring.txt (OSC Fig. 10.12 / 10.15 reference string);
+      result: FIFO = 15 faults, LRU = 12 faults, same as the textbook
+    - test_tlb.txt (TLB FIFO = 1 hit, LRU = 2 hits)
+    - -verbose (per-address trace) and -verify (check vs BACKING_STORE.bin)
+
+STAGE 3: Copy-paste instructions instead of downloads
+  We asked to build everything ourselves in Terminal. Claude gave every file
+  as a copy-paste Terminal command, plus the commands to compile and test.
+
+STAGE 4: Installing Java
+  Compiling failed because Java was not installed on our Mac. Claude gave
+  instructions for installing Temurin JDK 21 for Apple Silicon (arm64).
+
+STAGE 5: Clearer screenshots and documentation
+  We asked for clearer screenshot steps and better README / GenAI files.
+  Claude wrote shot.sh (one command per screenshot: bash shot.sh 1..6),
+  a reorganized README.txt, and a cleaner contribution.txt.
+
+------------------------------------------------------------------------------
+2. HOW WE VERIFIED THE WORK
+------------------------------------------------------------------------------
+  - Built and ran the project on our own Mac (Java 21)
+  - 256 frames: output identical to correct.txt (1000 / 1000 lines)
+  - 128 frames: all 1000 values correct (-check and -verify PASS)
+  - Textbook reference string: FIFO 15 / LRU 12 faults (matches the book)
+  - TLB test: FIFO 1 hit / LRU 2 hits (as designed)
+  - All 11 runs in run_all.sh pass
+
+------------------------------------------------------------------------------
+3. OUR OWN WORK
+------------------------------------------------------------------------------
+  See contribution.txt for who built, tested, reviewed and documented what.
+
+------------------------------------------------------------------------------
+4. FULL COMMUNICATION WITH THE GENAI TOOL
+------------------------------------------------------------------------------
+

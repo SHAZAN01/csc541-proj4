@@ -1,0 +1,32 @@
+==============================================================================
+  CSC 541 - Programming Project 4: Group Member Contribution
+  Team: Shazan, Saina
+==============================================================================
+
+Both members contributed equally (50% / 50%).
+
+The initial version of the code and documentation was generated with an AI
+assistant (Claude), as described in genai.txt. Our work was to build, test,
+verify, understand and document it, divided as follows:
+
+Shazan
+  - Set up the project folder, installed Java and created the GitHub repository
+  - Built and ran the base project (256 frames) and checked it against correct.txt
+  - Tested Extra Credit 2 (TLB, FIFO vs LRU), including the test_tlb.txt run
+  - Reviewed VirtualMemoryManager.java, TLB.java and BackingStore.java
+  - Took screenshots 01-03 (all tests, correct.txt match, statistics and TLB)
+  - Prepared the final zip file for submission
+
+Saina
+  - Tested Extra Credit 1 (128 frames, FIFO and LRU page replacement)
+  - Checked that evicted pages are removed from both the page table and the TLB
+  - Checked the textbook reference-string results by hand against
+    Figures 10.12 (FIFO, 15 faults) and 10.15 (LRU, 12 faults)
+  - Reviewed PageTable.java, PhysicalMemory.java and Policy.java
+  - Took screenshots 04-06 (page table, Extra Credit 1, Extra Credit 2)
+  - Reviewed README.txt and assembled genai.txt
+
+Both
+  - Walked through the address-translation logic together
+    (page number = address >> 8, offset = address & 0xFF)
+  - Final review of all files before submission

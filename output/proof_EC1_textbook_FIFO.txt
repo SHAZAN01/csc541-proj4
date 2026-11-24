@@ -1,0 +1,292 @@
+Virtual address: 1792 Physical address: 0 Value: 0   [page   7 | PAGE FAULT -> loaded into frame 0]
+Virtual address: 1 Physical address: 257 Value: 0   [page   0 | PAGE FAULT -> loaded into frame 1]
+Virtual address: 258 Physical address: 514 Value: 0   [page   1 | PAGE FAULT -> loaded into frame 2]
+Virtual address: 515 Physical address: 3 Value: -128   [page   2 | PAGE FAULT -> evicted page 7 from frame 0 -> loaded into frame 0]
+Virtual address: 4 Physical address: 260 Value: 0   [page   0 | page table hit -> frame 1]
+Virtual address: 773 Physical address: 261 Value: 0   [page   3 | PAGE FAULT -> evicted page 0 from frame 1 -> loaded into frame 1]
+Virtual address: 6 Physical address: 518 Value: 0   [page   0 | PAGE FAULT -> evicted page 1 from frame 2 -> loaded into frame 2]
+Virtual address: 1031 Physical address: 7 Value: 1   [page   4 | PAGE FAULT -> evicted page 2 from frame 0 -> loaded into frame 0]
+Virtual address: 520 Physical address: 264 Value: 0   [page   2 | PAGE FAULT -> evicted page 3 from frame 1 -> loaded into frame 1]
+Virtual address: 777 Physical address: 521 Value: 0   [page   3 | PAGE FAULT -> evicted page 0 from frame 2 -> loaded into frame 2]
+Virtual address: 10 Physical address: 10 Value: 0   [page   0 | PAGE FAULT -> evicted page 4 from frame 0 -> loaded into frame 0]
+Virtual address: 779 Physical address: 523 Value: -62   [page   3 | page table hit -> frame 2]
+Virtual address: 524 Physical address: 268 Value: 0   [page   2 | page table hit -> frame 1]
+Virtual address: 269 Physical address: 269 Value: 0   [page   1 | PAGE FAULT -> evicted page 2 from frame 1 -> loaded into frame 1]
+Virtual address: 526 Physical address: 526 Value: 0   [page   2 | PAGE FAULT -> evicted page 3 from frame 2 -> loaded into frame 2]
+Virtual address: 15 Physical address: 15 Value: 3   [page   0 | page table hit -> frame 0]
+Virtual address: 272 Physical address: 272 Value: 0   [page   1 | page table hit -> frame 1]
+Virtual address: 1809 Physical address: 17 Value: 0   [page   7 | PAGE FAULT -> evicted page 0 from frame 0 -> loaded into frame 0]
+Virtual address: 18 Physical address: 274 Value: 0   [page   0 | PAGE FAULT -> evicted page 1 from frame 1 -> loaded into frame 1]
+Virtual address: 275 Physical address: 531 Value: 68   [page   1 | PAGE FAULT -> evicted page 2 from frame 2 -> loaded into frame 2]
+
+==================== STATISTICS ====================
+Configuration            = 3 frames, page replacement FIFO, no TLB
+Number of Translated Addresses = 20
+Page Faults              = 15
+Page Fault Rate          = 0.750  (75.0%)
+TLB                      = disabled
+Page Replacements        = 12
+
+=============== PAGE TABLE (256 entries) ===============
+Page   Frame   Valid
+   0       1   v
+   1       2   v
+   2       -   i
+   3       -   i
+   4       -   i
+   5       -   i
+   6       -   i
+   7       0   v
+   8       -   i
+   9       -   i
+  10       -   i
+  11       -   i
+  12       -   i
+  13       -   i
+  14       -   i
+  15       -   i
+  16       -   i
+  17       -   i
+  18       -   i
+  19       -   i
+  20       -   i
+  21       -   i
+  22       -   i
+  23       -   i
+  24       -   i
+  25       -   i
+  26       -   i
+  27       -   i
+  28       -   i
+  29       -   i
+  30       -   i
+  31       -   i
+  32       -   i
+  33       -   i
+  34       -   i
+  35       -   i
+  36       -   i
+  37       -   i
+  38       -   i
+  39       -   i
+  40       -   i
+  41       -   i
+  42       -   i
+  43       -   i
+  44       -   i
+  45       -   i
+  46       -   i
+  47       -   i
+  48       -   i
+  49       -   i
+  50       -   i
+  51       -   i
+  52       -   i
+  53       -   i
+  54       -   i
+  55       -   i
+  56       -   i
+  57       -   i
+  58       -   i
+  59       -   i
+  60       -   i
+  61       -   i
+  62       -   i
+  63       -   i
+  64       -   i
+  65       -   i
+  66       -   i
+  67       -   i
+  68       -   i
+  69       -   i
+  70       -   i
+  71       -   i
+  72       -   i
+  73       -   i
+  74       -   i
+  75       -   i
+  76       -   i
+  77       -   i
+  78       -   i
+  79       -   i
+  80       -   i
+  81       -   i
+  82       -   i
+  83       -   i
+  84       -   i
+  85       -   i
+  86       -   i
+  87       -   i
+  88       -   i
+  89       -   i
+  90       -   i
+  91       -   i
+  92       -   i
+  93       -   i
+  94       -   i
+  95       -   i
+  96       -   i
+  97       -   i
+  98       -   i
+  99       -   i
+ 100       -   i
+ 101       -   i
+ 102       -   i
+ 103       -   i
+ 104       -   i
+ 105       -   i
+ 106       -   i
+ 107       -   i
+ 108       -   i
+ 109       -   i
+ 110       -   i
+ 111       -   i
+ 112       -   i
+ 113       -   i
+ 114       -   i
+ 115       -   i
+ 116       -   i
+ 117       -   i
+ 118       -   i
+ 119       -   i
+ 120       -   i
+ 121       -   i
+ 122       -   i
+ 123       -   i
+ 124       -   i
+ 125       -   i
+ 126       -   i
+ 127       -   i
+ 128       -   i
+ 129       -   i
+ 130       -   i
+ 131       -   i
+ 132       -   i
+ 133       -   i
+ 134       -   i
+ 135       -   i
+ 136       -   i
+ 137       -   i
+ 138       -   i
+ 139       -   i
+ 140       -   i
+ 141       -   i
+ 142       -   i
+ 143       -   i
+ 144       -   i
+ 145       -   i
+ 146       -   i
+ 147       -   i
+ 148       -   i
+ 149       -   i
+ 150       -   i
+ 151       -   i
+ 152       -   i
+ 153       -   i
+ 154       -   i
+ 155       -   i
+ 156       -   i
+ 157       -   i
+ 158       -   i
+ 159       -   i
+ 160       -   i
+ 161       -   i
+ 162       -   i
+ 163       -   i
+ 164       -   i
+ 165       -   i
+ 166       -   i
+ 167       -   i
+ 168       -   i
+ 169       -   i
+ 170       -   i
+ 171       -   i
+ 172       -   i
+ 173       -   i
+ 174       -   i
+ 175       -   i
+ 176       -   i
+ 177       -   i
+ 178       -   i
+ 179       -   i
+ 180       -   i
+ 181       -   i
+ 182       -   i
+ 183       -   i
+ 184       -   i
+ 185       -   i
+ 186       -   i
+ 187       -   i
+ 188       -   i
+ 189       -   i
+ 190       -   i
+ 191       -   i
+ 192       -   i
+ 193       -   i
+ 194       -   i
+ 195       -   i
+ 196       -   i
+ 197       -   i
+ 198       -   i
+ 199       -   i
+ 200       -   i
+ 201       -   i
+ 202       -   i
+ 203       -   i
+ 204       -   i
+ 205       -   i
+ 206       -   i
+ 207       -   i
+ 208       -   i
+ 209       -   i
+ 210       -   i
+ 211       -   i
+ 212       -   i
+ 213       -   i
+ 214       -   i
+ 215       -   i
+ 216       -   i
+ 217       -   i
+ 218       -   i
+ 219       -   i
+ 220       -   i
+ 221       -   i
+ 222       -   i
+ 223       -   i
+ 224       -   i
+ 225       -   i
+ 226       -   i
+ 227       -   i
+ 228       -   i
+ 229       -   i
+ 230       -   i
+ 231       -   i
+ 232       -   i
+ 233       -   i
+ 234       -   i
+ 235       -   i
+ 236       -   i
+ 237       -   i
+ 238       -   i
+ 239       -   i
+ 240       -   i
+ 241       -   i
+ 242       -   i
+ 243       -   i
+ 244       -   i
+ 245       -   i
+ 246       -   i
+ 247       -   i
+ 248       -   i
+ 249       -   i
+ 250       -   i
+ 251       -   i
+ 252       -   i
+ 253       -   i
+ 254       -   i
+ 255       -   i
+Valid entries = 3 / 256   (v = valid / in memory, i = invalid / not in memory)
+
+============ VERIFY AGAINST BACKING_STORE.bin ============
+Values equal to backing-store byte = 20 / 20
+RESULT: PASS - every value matches the backing store.
