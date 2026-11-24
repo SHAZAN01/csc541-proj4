@@ -2,6 +2,7 @@
   CSC 541 - Programming Project 4
   Virtual Memory Manager in Java  (OSC 10th ed., Project P-51)
   Team: Shazan, Saina
+  GitHub: https://github.com/SHAZAN01/csc541-proj4
 ==============================================================================
 
 ------------------------------------------------------------------------------
@@ -195,3 +196,17 @@
   04_page_table.png         all 256 page-table entries
   05_extra_credit_1.png     128 frames FIFO/LRU + textbook 15 vs 12 faults
   06_extra_credit_2.png     TLB FIFO vs LRU (1 vs 2 hits) + hit rates
+
+------------------------------------------------------------------------------
+ 8. SOURCE CODE REPOSITORY
+------------------------------------------------------------------------------
+  GitHub: https://github.com/SHAZAN01/csc541-proj4
+  (private repository; access is given to the instructor on request)
+
+  The commit history shows the work of both team members.
+
+  To get the code and run all tests:
+      git clone https://github.com/SHAZAN01/csc541-proj4.git
+      cd csc541-proj4
+      javac -d . src/*.java
+      bash run_all.sh

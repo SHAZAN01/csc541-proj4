@@ -1,6 +1,7 @@
 ==============================================================================
   CSC 541 - Programming Project 4: Group Member Contribution
   Team: Shazan, Saina
+  GitHub: https://github.com/SHAZAN01/csc541-proj4
 ==============================================================================
 
 Both members contributed equally (50% / 50%).
@@ -30,3 +31,8 @@ Both
   - Walked through the address-translation logic together
     (page number = address >> 8, offset = address & 0xFF)
   - Final review of all files before submission
+
+Collaboration
+  We shared the project through the GitHub repository
+  https://github.com/SHAZAN01/csc541-proj4 . Each member pushed their own
+  changes, which can be seen in the repository's commit history.

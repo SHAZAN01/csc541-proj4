@@ -1,6 +1,7 @@
 ==============================================================================
   CSC 541 - Programming Project 4: GenAI Usage Statement
   Team: Shazan, Saina
+  GitHub: https://github.com/SHAZAN01/csc541-proj4
   AI Tool Used: Claude (Anthropic), claude.ai
   Date of use: November 23, 2026
 ==============================================================================
